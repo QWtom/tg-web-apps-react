@@ -10,7 +10,7 @@ const Horoscope = () => {
 			.then(response => response.json())
 			.then(json => {
 				const date = json.current_date;
-				console.log(date); // КАРОЧЕ ПИЗДЕЦУ ОШИБКА НАХУЙ
+				console.log(date); // КАРОЧЕ ПИЗДЕЦУ ОШИБКА НАХУЙ ИДИ НГАЗУй
 			});
 	}, [])
 

@@ -1,6 +1,6 @@
 import React from 'react'
-import Horoscope from './Horoscope.tsx';
-import './App.css';
+import Horoscope from '../../Horoscope.tsx';
+import './shared/ui/App.css';
 
 const App = () => {
   return (

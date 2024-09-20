@@ -23,8 +23,8 @@ const fetchAccessToken = async () => {
 			throw new Error(`Error: ${response.status} ${response.statusText}`);
 		}
 
-		const result = await response.json();  // Парсим JSON-ответ
-		console.log('Access token response:', result);  // Выводим весь ответ
+		const result = await response.json();
+		console.log('Access token response:', result);
 
 		// Выводим сам токен
 		const accessToken = result.access_token;
